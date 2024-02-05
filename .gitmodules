@@ -1,0 +1,3 @@
+[submodule "Submodules_external"]
+	path = Submodules_external
+	url = https://github.com/Thifall/Submodules_external.git
