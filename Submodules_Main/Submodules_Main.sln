@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Submodules_Main", "Submodules_Main\Submodules_Main.csproj", "{FC494677-DB0F-46C0-A3DD-DDFACD2F1710}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Submodules_Main", "Submodules_Main\Submodules_Main.csproj", "{FC494677-DB0F-46C0-A3DD-DDFACD2F1710}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{70F6746A-A0DC-43B1-950C-CB6FC441E601}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Submodules_external", "..\Submodules_external\Submodules_external\Submodules_external\Submodules_external.csproj", "{05D64950-C963-4164-8820-836B98F3212F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{FC494677-DB0F-46C0-A3DD-DDFACD2F1710}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC494677-DB0F-46C0-A3DD-DDFACD2F1710}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC494677-DB0F-46C0-A3DD-DDFACD2F1710}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05D64950-C963-4164-8820-836B98F3212F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05D64950-C963-4164-8820-836B98F3212F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05D64950-C963-4164-8820-836B98F3212F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05D64950-C963-4164-8820-836B98F3212F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{05D64950-C963-4164-8820-836B98F3212F} = {70F6746A-A0DC-43B1-950C-CB6FC441E601}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B0BA584B-9E81-42BE-A9F9-708669B118E0}
