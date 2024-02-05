@@ -1,8 +1,6 @@
 ﻿################################################################################
 # Ten plik .gitignore został utworzony automatycznie przez Microsoft(R) Visual Studio.
 ################################################################################
-
-/Submodules_Main/Submodules_Main/bin/Debug/net6.0
-/Submodules_Main/Submodules_Main/obj
-/Submodules_Main/.vs/Submodules_Main
-/.vs
+bin/
+obj/
+.vs
