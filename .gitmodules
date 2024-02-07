@@ -1,3 +1,6 @@
 [submodule "Submodules_external"]
 	path = Submodules_external
 	url = https://github.com/Thifall/Submodules_external.git
+[submodule "Submodules_Lib_Layer_1"]
+	path = Submodules_Lib_Layer_1
+	url = https://github.com/Thifall/Submodules_Lib_Layer_1.git

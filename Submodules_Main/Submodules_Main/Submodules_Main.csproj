@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Submodules_external\Submodules_external\Submodules_external\Submodules_external.csproj" />
+    <ProjectReference Include="..\..\Submodules_Lib_Layer_1\LayerOne\LayerOne\LayerOne.csproj" />
   </ItemGroup>
 
 </Project>

@@ -9,6 +9,8 @@ namespace Submodules_Main
             Console.WriteLine("Hello, World!");
             Class1 t = new() { MyProperty = 1 };
             Console.WriteLine(t.MyProperty);
+
+            LayerOne.LayerOne layerTest = new();
         }
     }
 }
