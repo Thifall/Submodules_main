@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Submodules_external", "..\S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LayerOne", "..\Submodules_Lib_Layer_1\LayerOne\LayerOne\LayerOne.csproj", "{6E962AC9-9F94-4661-8B2D-EAB31B894277}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LayerTwo", "..\Submodules_Lib_Layer_1\Submodules_Lib_Layer_2\LayerTwo\LayerTwo\LayerTwo.csproj", "{D20BAF73-0E16-4D86-BB08-10A87436B30F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{6E962AC9-9F94-4661-8B2D-EAB31B894277}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E962AC9-9F94-4661-8B2D-EAB31B894277}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E962AC9-9F94-4661-8B2D-EAB31B894277}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D20BAF73-0E16-4D86-BB08-10A87436B30F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D20BAF73-0E16-4D86-BB08-10A87436B30F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D20BAF73-0E16-4D86-BB08-10A87436B30F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D20BAF73-0E16-4D86-BB08-10A87436B30F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{05D64950-C963-4164-8820-836B98F3212F} = {70F6746A-A0DC-43B1-950C-CB6FC441E601}
 		{6E962AC9-9F94-4661-8B2D-EAB31B894277} = {70F6746A-A0DC-43B1-950C-CB6FC441E601}
+		{D20BAF73-0E16-4D86-BB08-10A87436B30F} = {70F6746A-A0DC-43B1-950C-CB6FC441E601}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B0BA584B-9E81-42BE-A9F9-708669B118E0}
